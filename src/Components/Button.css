@@ -1,0 +1,29 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(40, 40, 108);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.zero{
+    grid-column: span 2;
+    height: 4rem;
+    width: 9.5rem;
+    border-radius: 57.5px;
+    background-color: rgb(40, 40, 108);
+    color: #fff;
+    
+    
+}
+.ops{
+    background-color: rgb(209, 208, 203);
+    color: black; 
+}
+.operator{
+    background-color: rgb(243, 152, 7);
+}

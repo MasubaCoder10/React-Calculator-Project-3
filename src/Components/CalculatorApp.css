@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CalculatorApp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 400px;
+    gap: 20px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+}
+.result{
+    height: 100px;
+    background-color: rgb(40, 40, 108);
+    margin-bottom: 1rem;
+    text-align: right;
+    text-align: end;
+    color: #FFF;
+    font-size: 1.6rem;
+}
